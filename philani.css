@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+
+
+body {
+    width: 90%;
+    margin: auto;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+
+nav .logo {
+    width: 180px;
+}
+
+nav .a1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    margin: 0 32px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+
+.si {
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 1.4rem;
+    margin: 0 12px;
+}
+
+.jo {
+    background-color: black;
+    border: white solid 2px;
+    padding: 6px 14px;
+    color: white;
+    border-radius: 1rem;
+    margin: 0 10px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.data .text {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    line-height: 50px;
+    font-size: 22px;
+    margin-right: 30px;
+}
+
+.data .txt {
+    line-height: 40px;
+}
+
+h1 {
+    font-family:'Kdam Thmor Pro', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -30px;
+    font-size: 80px;
+    text-transform: uppercase;
+    opacity: 0,1;
+}
+
+span {
+    color: rgb(202, 16, 16);
+}
+
+.txt button {
+    background-color: red;
+    padding: 8px 12 px;
+    color: white;
+    border-radius: 12 px;
+
+}
+
+.image img {
+    width: 485px;
+}
